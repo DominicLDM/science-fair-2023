@@ -1274,7 +1274,7 @@ def vectorMenu():
 window = tk.Tk()
 window.geometry('800x750')
 window.resizable(False,False)
-title = tk.Label(text= 'Vectors, Velocites, Visualizations', font =("Unispace", 24,),foreground = 'black',  width = 25, height = 7)
+title = tk.Label(text= 'Vectors, Velocities, Visualizations', font =("Unispace", 24,),foreground = 'black',  width = 25, height = 7)
 title.pack(fill=tk.X)
 plot_button = tk.Button(master = window, command = openVar, font=('bold'),height = 2, width = 25, text = "Projectile Motion Visualizer")
 plot_button.place(x=260, y=375)
